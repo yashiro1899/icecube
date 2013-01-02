@@ -1,0 +1,24 @@
+!!! 5
+%html(lang="en")
+    %head
+        %meta(charset="utf-8")
+        %title #{(title ? title + " - " : "")}IceCube
+        %meta(name="description" content="Ice White's blog.")
+        %meta(name="viewport" content="width=device-width")
+        %link(href="/style.css" rel="stylesheet")
+        %link(href="/print.css" rel="stylesheet" media="print")
+        %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+        %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+    %body
+        #container
+            #header
+                %a{href: "/"}
+                    %img.logo{src: "/logo.png", alt: "Ice Cube"}
+                    .tagline
+                        Ice White's Blog
+            / = content
+
+            #footer
+                %p &copy; 2013 Ice White.
+                %p Wheat running on node #{process.version}
+
