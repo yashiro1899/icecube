@@ -1,0 +1,21 @@
+{
+    "author": "Ice White <yashiro1899@gmail.com> (http://icewhite.us/)",
+    "name": "icewhite.us",
+    "description": "My blog IceCube",
+    "version": "0.0.0",
+    "homepage": "http://icewhite.us/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:yashiro1899/icecube.git"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "dependencies": {
+        "stack": ">=0.0.3",
+        "creationix": ">=0.1.2",
+        "wheat": ">=0.2.0",
+        "cluster": ">=0.6.4"
+    },
+    "devDependencies": {}
+}
