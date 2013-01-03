@@ -71,14 +71,15 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
 }
 #header .logo {
     position: absolute;
-    top: -35px;
-    left: 18px;
+    top: 0;
+    left: 60px;
+    height: 48px;
 }
 #header .tagline {
     float: left;
     display: inline;
     color: #fff;
-    margin-left: 240px;
+    margin-left: 130px;
     font-size: 12px;
     font-weight: normal;
     line-height: 10px;
