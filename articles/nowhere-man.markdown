@@ -7,6 +7,7 @@ Node: v0.9.3
 
 ## Nowhere Man
 
+    /**
     He's a real nowhere man,
     Sitting in his nowhere land,
     Making all his nowhere plans for nobody.
@@ -40,3 +41,4 @@ Node: v0.9.3
     Making all his nowhere plans for nobody.
     Making all his nowhere plans for nobody.
     Making all his nowhere plans for nobody!
+    */
