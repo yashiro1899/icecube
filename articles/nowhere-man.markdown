@@ -3,7 +3,9 @@ Author: Ice White
 Date: Thu Jan 03 2013 22:56:29 GMT+0800 (CST)
 Node: v0.9.3
 
-## From [The Beatles](http://en.wikipedia.org/wiki/The_Beatles)
+"Nowhere Man" is a song by the [The Beatles](http://en.wikipedia.org/wiki/The_Beatles), from their album Rubber Soul. The song was written by John Lennon.
+
+## Nowhere Man
 
     He's a real nowhere man,
     Sitting in his nowhere land,
