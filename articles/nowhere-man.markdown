@@ -9,7 +9,7 @@ Node: v0.9.3
 
 <script src="/audiojs/audio.min.js"></script>
 <script src="/nowhere-man/nowhere-man.js"></script>
-<audio src="/nowhere-man/nowhere-man.ogg" preload="auto" />
+<audio src="/nowhere-man/nowhere-man.mp3" preload="auto" />
 
     """
     He's a real nowhere man,
