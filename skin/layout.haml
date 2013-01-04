@@ -1,32 +1,32 @@
 !!! 5
 %html(lang="en")
-    %head
-        %meta(charset="utf-8")
-        %title #{(title ? title + " - " : "")}IceCube
-        %meta(name="description" content="Ice White's BLOG.")
-        %meta(name="viewport" content="width=device-width")
-        %link(href="/style.css" rel="stylesheet")
-        %link(href="/print.css" rel="stylesheet" media="print")
-        %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
-        %link(href="/favicon.ico" rel="icon" type="image/x-icon")
-    %body
-        #container
-            #header
-                %a{href: "/"}
-                    %img.logo{src: "/logo.png", alt: "Ice Cube"}
-                    .tagline
-                        Ice White's BLOG
-            = content
+  %head
+    %meta(charset="utf-8")
+    %title #{(title ? title + " - " : "")}IceCube
+    %meta(name="description" content="Ice White's BLOG.")
+    %meta(name="viewport" content="width=device-width")
+    %link(href="/style.css" rel="stylesheet")
+    %link(href="/print.css" rel="stylesheet" media="print")
+    %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+    %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+  %body
+    #container
+      #header
+        %a{href: "/"}
+          %img.logo{src: "/logo.png", alt: "Ice Cube"}
+          .tagline
+            Ice White's BLOG
+      = content
 
-            #footer
-                %p &copy; 2013 Ice White.
-                %p Wheat running on node #{process.version}
-        :script
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        :script
-            try {
-            var pageTracker = _gat._getTracker("UA-37396231-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
+      #footer
+        %p &copy; 2013 Ice White.
+        %p Wheat running on node #{process.version}
+    :script
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :script
+      try {
+      var pageTracker = _gat._getTracker("UA-37396231-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
 
