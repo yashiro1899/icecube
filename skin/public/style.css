@@ -181,6 +181,9 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
 .article p, .article ul, .article ol {
     margin: 20px;
 }
+.audiojs p {
+    margin: 0;
+}
 .article img {
     max-width: 100%;
 }
