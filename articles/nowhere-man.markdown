@@ -7,6 +7,10 @@ Node: v0.9.3
 
 ## Nowhere Man
 
+<script src="/audiojs/audio.min.js"></script>
+<script src="/nowhere-man/nowhere-man.js"></script>
+<audio src="/nowhere-man/nowhere-man.ogg" preload="auto" />
+
     """
     He's a real nowhere man,
     Sitting in his nowhere land,
