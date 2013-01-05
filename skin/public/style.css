@@ -364,7 +364,7 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
 #sidebar dd {
     margin-bottom: 10px;
 }
-#addthis_toolbox {
+#sidebar .addthis_toolbox {
     margin-bottom: 10px;
 }
 #main.index h3 {
