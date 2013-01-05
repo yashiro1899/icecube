@@ -481,7 +481,7 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
 li.L1, li.L3, li.L5, li.L7, li.L9 {
     background: #eee;
 }
-@media screen and(max-width: 800px) {
+@media screen and (max-width: 800px) {
     #main {
         width: 100%;
         float: none;
