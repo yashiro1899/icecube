@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+
+var title = process.argv.slice(2);
+
+console.log("Title: " + title.join(' '));
+console.log("Author: Ice White");
+console.log("Date: " + new Date());
+console.log("Node: " + process.version + "\n");
+process.exit(0);
+
