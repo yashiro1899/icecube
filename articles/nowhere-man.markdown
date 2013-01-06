@@ -9,7 +9,7 @@ Node: v0.9.3
 
 <script src="/audiojs/audio.min.js"></script>
 <script src="/nowhere-man/nowhere-man.js"></script>
-<audio src="https://s3-ap-southeast-1.amazonaws.com/cubeice/articles/nowhere-man/nowhere-man.mp3" preload="auto" />
+<audio src="s3://ice.cube/articles/nowhere-man/nowhere-man.mp3" preload="auto" />
 
     """
     He's a real nowhere man,
