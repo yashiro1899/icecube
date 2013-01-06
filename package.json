@@ -16,7 +16,8 @@
         "creationix": ">=0.1.2",
         "wheat": ">=0.2.0",
         "cluster": ">=0.6.4",
-        "gith": ">=1.0.0"
+        "gith": ">=1.0.0",
+        "knox": ">=0.4.6"
     },
     "devDependencies": {}
 }
