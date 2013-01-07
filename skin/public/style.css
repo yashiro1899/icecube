@@ -289,6 +289,16 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
     right: 20px;
     height: 20px;
 }
+.article blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    margin: 0 20px;
+    color: #777777;
+}
+.article blockquote p {
+    margin-left: 0;
+    margin-right: 0;
+}
 #sidebar .aside, #sidebar .bubble {
     margin-bottom: 20px;
 }
@@ -387,6 +397,14 @@ pre code {
     overflow: auto;
     margin: 20px 0px;
     clear: both;
+}
+p code, p tt {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px;
 }
 .pln {
     color: #f8f7f2;
