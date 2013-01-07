@@ -5,7 +5,7 @@
 body {
     font-size: 14px;
     line-height: 1.4em;
-    font-family:'Lucida Grande', sans-serif;
+    font-family:'Lucida Grande', sans-serif, "Hiragino Kaku Gothic Pro", "STXihei", Hei, SimSun;
     color: #333;
     background-image: url("groovepaper.png");
 }
