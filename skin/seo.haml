@@ -1,0 +1,19 @@
+:if typeof title != "undefined"
+  %meta(property="og:type" content="article")
+  %meta(property="og:title" content=article.title)
+  %meta(property="og:url" content="http://icewhite.us/"+article.name)
+  %meta(property="article:published_time" content=article.date)
+  %meta(property="article:modified_time" content=article.lastUpdated)
+  %meta(property="article:author" content="http://github.com/yashiro1899/")
+  %meta(property="og:site_name" content="IceCube")
+  %meta(name="twitter:card" content="summary")
+  %meta(name="twitter:creator" content="@_IceWhite")
+:if typeof title == "undefined"
+  %meta(property="og:type" content="blog")
+  %meta(property="og:title" content="IceCube")
+  %meta(property="og:description" content="Ice White's BLOG.")
+  %meta(property="og:url" content="http://icewhite.us/")
+  %meta(property="og:site_name" content="IceCube")
+  %meta(name="twitter:card" content="summary")
+  %meta(name="twitter:creator" content="@_IceWhite")
+
