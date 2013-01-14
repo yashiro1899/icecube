@@ -1,4 +1,4 @@
-:if typeof title != "undefined"
+:if typeof article != "undefined"
   %meta(property="og:type" content="article")
   %meta(property="og:title" content=article.title)
   %meta(property="og:url" content="http://icewhite.us/"+article.name)
@@ -8,7 +8,7 @@
   %meta(property="og:site_name" content="IceCube")
   %meta(name="twitter:card" content="summary")
   %meta(name="twitter:creator" content="@_IceWhite")
-:if typeof title == "undefined"
+:if typeof article == "undefined"
   %meta(property="og:type" content="blog")
   %meta(property="og:title" content="IceCube")
   %meta(property="og:description" content="Ice White's BLOG.")
