@@ -2,6 +2,7 @@ Title: Mac OS 奇怪的“类”字
 Author: Ice White
 Date: Sun Jan 06 2013 15:34:34 GMT+0800 (CST)
 Node: v0.8.16
+Tags: Mac OS, iOS, unicode
 
 有那么一天，我突然意识到 Mac OS 上的“类”字肿么如此奇怪，那多出来的点是神马情况。。。
 

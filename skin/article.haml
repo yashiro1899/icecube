@@ -75,6 +75,16 @@
           %a{ href: "http://github.com/joyent/node/tree/" + article.node }
             node #{article.node}
 
+    :if article.tags
+      %dl
+        %dt
+          Tags:
+        %dd
+          %ul
+            %li
+              :each tag in article.tags
+                %span.versiontag&= tag
+
     :if article.dependencies
       %dl
         %dt
@@ -116,7 +126,8 @@
           %li
             %a{href: "/" + related.name}&=related.title
             :if related.node
-              %span.versiontag&= related.node
+                :each tag in related.tags
+                  %span.versiontag&= tag
 
 %script{src:"http://icetube.disqus.com/embed.js"}
 %script{src:"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50e7dea273b9ec18"}

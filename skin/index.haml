@@ -21,6 +21,7 @@
         %li
           %a{href: "/" + article.name}&=article.title
           &=" by " + article.author.name
-          :if article.node
-            %span.versiontag&= article.node
+          :if article.tags
+            :each tag in article.tags
+              %span.versiontag&= tag
 
