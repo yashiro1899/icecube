@@ -345,7 +345,8 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
     color: #eee;
     display: block;
 }
-#sidebar li span {
+#sidebar li .versiontag {
+    display: inline;
     background-color: #7c5229;
     border: 1px solid #422100;
     -webkit-border-radius: 5px;

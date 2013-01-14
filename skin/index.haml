@@ -23,5 +23,5 @@
           &=" by " + article.author.name
           :if article.tags
             :each tag in article.tags
-              %span.versiontag&= tag
+              %a.versiontag{href: "/tag/" + decodeURIComponent(tag)}&= tag
 

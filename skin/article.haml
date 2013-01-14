@@ -83,7 +83,7 @@
           %ul
             %li
               :each tag in article.tags
-                %span.versiontag&= tag
+                %a.versiontag{href: "/tag/" + decodeURIComponent(tag)}&= tag
 
     :if article.dependencies
       %dl
@@ -127,7 +127,7 @@
             %a{href: "/" + related.name}&=related.title
             :if related.node
                 :each tag in related.tags
-                  %span.versiontag&= tag
+                  %a.versiontag{href: "/tag/" + decodeURIComponent(tag)}&= tag
 
 %script{src:"http://icetube.disqus.com/embed.js"}
 %script{src:"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50e7dea273b9ec18"}
