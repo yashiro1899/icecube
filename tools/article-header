@@ -6,6 +6,7 @@ var title = process.argv.slice(2);
 console.log("Title: " + title.join(' '));
 console.log("Author: Ice White");
 console.log("Date: " + new Date());
-console.log("Node: " + process.version + "\n");
+console.log("Node: " + process.version);
+console.log("Tags: \n");
 process.exit(0);
 
