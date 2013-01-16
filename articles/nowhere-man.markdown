@@ -12,7 +12,6 @@ Tags: music
 <script src="/nowhere-man/nowhere-man.js"></script>
 <audio src="s3://ice.cube:nowhere-man.mp3" preload="auto" />
 
-    """
     He's a real nowhere man,
     Sitting in his nowhere land,
     Making all his nowhere plans for nobody.
@@ -46,5 +45,4 @@ Tags: music
     Making all his nowhere plans for nobody.
     Making all his nowhere plans for nobody.
     Making all his nowhere plans for nobody!
-    """
 

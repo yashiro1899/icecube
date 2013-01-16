@@ -2,7 +2,7 @@
     "author": "Ice White <yashiro1899@gmail.com> (http://icewhite.us/)",
     "name": "icewhite.us",
     "description": "My blog IceCube",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "homepage": "http://icewhite.us/",
     "repository": {
         "type": "git",
@@ -17,7 +17,8 @@
         "wheat": ">=0.2.0",
         "cluster": ">=0.6.4",
         "gith": ">=1.0.0",
-        "knox": ">=0.4.6"
+        "knox": ">=0.4.6",
+        "codemirror": ">=2.33.0"
     },
     "devDependencies": {}
 }
