@@ -4,7 +4,7 @@
     :if snippet.name
       %span.hash ##{snippet.name}
   %pre
-    %code= snippet.code
+    %code.cm-s-blackboard= snippet.code
   :if snippet.output || snippet.lastExpression !== undefined
     %dl.output
       %dt Output

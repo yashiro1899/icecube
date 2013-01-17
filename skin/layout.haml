@@ -8,6 +8,7 @@
     = seo
     %link(href="/style.css" rel="stylesheet")
     %link(href="/print.css" rel="stylesheet" media="print")
+    %link(href="/codemirror/theme/blackboard.css" rel="stylesheet")
     %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
     %link(href="/favicon.ico" rel="icon" type="image/x-icon")
   %body
@@ -21,7 +22,11 @@
 
       #footer
         %p &copy; 2013 Ice White.
-        %p Wheat running on node #{process.version}
+        %p Code snippets colored by&nbsp;
+          %a{href: "http://codemirror.net"} CodeMirror.
+        %p
+          %a{href: "https://github.com/creationix/wheat"} Wheat&nbsp;
+          running on node #{process.version}
     :script
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
