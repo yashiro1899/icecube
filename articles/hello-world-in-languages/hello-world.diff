@@ -1,0 +1,20 @@
+commit e023f1a440dcb0ac977892f062ae392021e6ee43
+Author: Ice White <yashiro1899@gmail.com>
+Date:   Thu Jan 3 23:27:56 2013
+
+    first article
+
+diff --git a/description.markdown b/description.markdown
+index a5d6ebe..3928320 100644
+--- a/description.markdown
++++ b/description.markdown
+@@ -1,6 +1,5 @@
+ ### About Me
+ 
+-He's a real nowhere man,
+-Sitting in his nowhere land,
+-Making all his nowhere plans for nobody
+-
++He's a real nowhere man,    
++Sitting in his nowhere land,    
++Making all his nowhere plans for nobody.
