@@ -8,7 +8,8 @@
     = seo
     %link(href="/style.css" rel="stylesheet")
     %link(href="/print.css" rel="stylesheet" media="print")
-    %link(href="/codemirror/theme/blackboard.css" rel="stylesheet")
+    :if theme
+        %link(href=theme rel="stylesheet")
     %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
     %link(href="/favicon.ico" rel="icon" type="image/x-icon")
   %body
