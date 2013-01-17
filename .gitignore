@@ -2,4 +2,4 @@
 *.pyc
 
 .DS_Store
-node_modules/wheat/lib/wheat/auth.json
+auth.json
