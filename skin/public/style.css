@@ -392,13 +392,13 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
 pre code {
     font-family:'Monaco', 'Menlo', monospace;
     font-size: 13px;
-    background-color: #0c1021;
+    background-color: #f8f8f8;
     display: block;
     padding: 20px;
     overflow: auto;
     margin: 20px 0px;
     clear: both;
-    color: #f8f8f8;
+    color: #000;
 }
 p code, p tt {
     margin: 0 2px;

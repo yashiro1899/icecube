@@ -3,7 +3,7 @@ Author: Ice White
 Date: Thu Jan 17 2013 12:26:59 GMT+0800 (CST)
 Node: v0.8.17
 Tags: programming languages
-Theme: blackboard
+Theme: monokai
 
 折腾了两天，算是把 [CodeMirror](http://codemirror.net "CodeMirror") 集成到这站点上了，利用 [CodeMirror](http://codemirror.net "CodeMirror") 在后端直接把要展示的代码解析和生成有结构、可高亮的格式。代码请看 [https://github.com/yashiro1899/icecube](https://github.com/yashiro1899/icecube "GitHub") 。
 
