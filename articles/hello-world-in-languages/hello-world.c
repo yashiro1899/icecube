@@ -4,6 +4,6 @@ main()
 {
     for(;;)
     { 
-        printf ("Hello World!\n");
+        printf ("Hello, world!\n");
     }
 }

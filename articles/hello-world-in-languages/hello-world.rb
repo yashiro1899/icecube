@@ -1,3 +1,3 @@
-for i in 1..1
-    puts "Hello World!"
+while 1 do
+    puts "Hello, world!"
 end

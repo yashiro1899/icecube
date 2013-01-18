@@ -1,1 +1,1 @@
-print "Hello, World!\n" while (1);
+print "Hello, world!\n" while (1);
