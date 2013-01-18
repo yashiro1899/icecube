@@ -20,7 +20,7 @@ Every article is a markdown file with some meta-data at the top of the file.
 
     ## Title
 
-    * display contents of external JavaScript file (path is relative to .markdown file)
+    * display contents of external readable file (path is relative to .markdown file)
     <test-code/test-file.js>
 
     * display contents of external JavaScript file and evaluate its contents
@@ -30,6 +30,20 @@ Every article is a markdown file with some meta-data at the top of the file.
     <test-code/test-file.js#test-function>
 
     More content goes here.
+
+### Example test-file.js
+    //isArray
+    function isArray (obj) {
+        return Array.isArray(obj);
+    }
+    //test-function
+    function isString (obj) {
+        return typeof(obj) === 'string' || obj instanceof String;
+    }
+    //isObject
+    function isObject (obj) {
+        return typeof(obj) === 'object' && obj && !isArray(obj);
+    }
 
 ### Theme List
 
@@ -48,4 +62,3 @@ Every article is a markdown file with some meta-data at the top of the file.
 * xq-dark
 
 Preview the themes on [CodeMirror](http://codemirror.net/demo/theme.html "CodeMirror").
-
