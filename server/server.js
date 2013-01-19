@@ -1,6 +1,7 @@
 // Just a basic server setup for this site
 var Stack = require('stack'),
-    Http = require('http');
+    Http = require('http'),
+    UAParser = require('ua-parser');
 
 var special = {
     "Content-Type": true,
@@ -12,7 +13,12 @@ var special = {
 Http.createServer(Stack(function(req, res, next) {
     var writeHead = res.writeHead;
     var start = Date.now();
+    var ua = req.headers['user-agent'];
+    var agent;
 
+    ua = UAParser.parse(ua);
+    agent = ua.userAgent.toString();
+    agent = agent == "Other" ? ua.string : agent;
     res.writeHead = function(code, headers) {
         var extra = [];
         if (headers) {
@@ -27,7 +33,7 @@ Http.createServer(Stack(function(req, res, next) {
             headers.Server = "NodeJS " + process.version;
             headers["X-Runtime"] = Date.now() - start;
         }
-        console.log("%s - [%s] %s %s %s \"%s\"", req.connection.remoteAddress, headers.Date, req.method, req.url, code, req.headers['user-agent']);
+        console.log("%s - [%s] %s %s %s %s(%s)", req.connection.remoteAddress, headers.Date, req.method, req.url, code, agent.toString(), ua.os.toString());
         res.writeHead = writeHead;
         res.writeHead(code, headers);
     };

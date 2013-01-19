@@ -13,9 +13,8 @@
     },
     "dependencies": {
         "stack": ">=0.0.3",
-        "creationix": ">=0.1.2",
         "wheat": ">=0.2.0",
-        "cluster": ">=0.6.4",
+        "ua-parser": ">=0.3.1",
         "gith": ">=1.0.0",
         "knox": ">=0.4.6",
         "codemirror": ">=2.33.0"
