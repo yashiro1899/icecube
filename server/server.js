@@ -33,7 +33,7 @@ Http.createServer(Stack(function(req, res, next) {
             headers.Server = "NodeJS " + process.version;
             headers["X-Runtime"] = Date.now() - start;
         }
-        console.log("%s - [%s] %s %s %s %s(%s)", req.connection.remoteAddress, headers.Date, req.method, req.url, code, agent.toString(), ua.os.toString());
+        console.log("%s - [%s] %s %s %s \"%s(%s)\"", req.connection.remoteAddress, headers.Date, req.method, req.url, code, agent.toString(), ua.os.toString());
         res.writeHead = writeHead;
         res.writeHead(code, headers);
     };
