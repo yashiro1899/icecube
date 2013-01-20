@@ -47,6 +47,7 @@ Every article is a markdown file with some meta-data at the top of the file.
 
 ### Theme List
 
+* ambiance-mobile
 * ambiance
 * blackboard
 * cobalt
@@ -58,7 +59,10 @@ Every article is a markdown file with some meta-data at the top of the file.
 * neat
 * night
 * rubyblue
+* solarized
+* twilight
 * vibrant-ink
 * xq-dark
 
 Preview the themes on [CodeMirror](http://codemirror.net/demo/theme.html "CodeMirror").
+
