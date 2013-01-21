@@ -19,6 +19,10 @@ Theme: monokai
 
 <hello-world-in-languages/hello-world.cpp>
 
+* Common Lisp
+
+<hello-world-in-languages/hello-world.lisp>
+
 * diff
 
 <hello-world-in-languages/hello-world.diff>
