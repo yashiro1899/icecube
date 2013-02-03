@@ -18,7 +18,7 @@ Http.createServer(Stack(function(req, res, next) {
 
     ua = UAParser.parse(ua);
     agent = ua.userAgent.toString();
-    agent = agent == "Other" ? ua.string : agent;
+    agent = agent == "Other" ? ua.string : (agent || '');
     res.writeHead = function(code, headers) {
         var extra = [];
         if (headers) {
