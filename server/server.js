@@ -14,7 +14,7 @@ Http.createServer(Stack(function(req, res, next) {
     var writeHead = res.writeHead;
     var start = Date.now();
     var ua = req.headers['user-agent'];
-    var agent;
+    var agent = '';
 
     ua = UAParser.parse(ua);
     agent = ua.userAgent.toString();
