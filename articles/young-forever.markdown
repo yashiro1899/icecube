@@ -15,8 +15,6 @@ the original melody is retained, [Mr Hudson](http://en.wikipedia.org/wiki/Mr_Hud
 
 ## Young Forever
 
-<script src="/audiojs/audio.min.js"></script>
-<script src="/nowhere-man/nowhere-man.js"></script>
 <audio src="s3://ice.cube:young-forever.mp3" preload="auto" />
 
     [Mr. Hudson]
@@ -132,4 +130,7 @@ the original melody is retained, [Mr Hudson](http://en.wikipedia.org/wiki/Mr_Hud
     Forever young,
     Do you really want to live forever?
     Forever, forever.
+
+<script src="/audiojs/audio.min.js"></script>
+<script src="/nowhere-man/nowhere-man.js"></script>
 
