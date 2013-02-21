@@ -14,11 +14,11 @@ Http.createServer(Stack(function(req, res, next) {
     var writeHead = res.writeHead;
     var start = Date.now();
     var ua = req.headers['user-agent'];
-    var agent = '';
+    var agent;
 
     ua = UAParser.parse(ua);
     agent = ua.userAgent.toString();
-    agent = agent == "Other" ? ua.string : (agent || '');
+    agent = agent == "Other" ? (ua.string || '') : agent;
     res.writeHead = function(code, headers) {
         var extra = [];
         if (headers) {
