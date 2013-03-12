@@ -71,9 +71,8 @@ p a:hover, ul a:hover, ol a:hover, dl a:hover {
 }
 #header .logo {
     position: absolute;
-    top: 0;
-    left: 60px;
-    height: 48px;
+    top: 8px;
+    left: 65px;
 }
 #header .tagline {
     float: left;
