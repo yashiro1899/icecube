@@ -52,7 +52,7 @@ Theme: monokai
 #### 类式继承
 
 <oop-in-javascript/inheritance-classical.js*>
-    
+
 #### 原型式继承
 
 <oop-in-javascript/inheritance-prototypal.js*>
