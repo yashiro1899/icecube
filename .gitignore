@@ -3,4 +3,5 @@
 
 .DS_Store
 auth.json
+node_modules/gith/
 node_modules/stack/
