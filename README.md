@@ -55,6 +55,7 @@ Every article is a markdown file with some meta-data at the top of the file.
 * elegant
 * erlang-dark
 * lesser-dark
+* midnight
 * monokai
 * neat
 * night
@@ -63,6 +64,7 @@ Every article is a markdown file with some meta-data at the top of the file.
 * twilight
 * vibrant-ink
 * xq-dark
+* xq-light
 
 Preview the themes on [CodeMirror](http://codemirror.net/demo/theme.html "CodeMirror").
 
