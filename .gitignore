@@ -3,3 +3,4 @@
 
 .DS_Store
 auth.json
+node_modules/stack/
