@@ -13,7 +13,6 @@
     },
     "dependencies": {
         "stack": ">=0.0.3",
-        "wheat": ">=0.2.0",
         "ua-parser": ">=0.3.1",
         "gith": ">=1.0.0",
         "knox": ">=0.4.6"
