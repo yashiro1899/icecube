@@ -4,5 +4,6 @@
 .DS_Store
 auth.json
 node_modules/gith/
+node_modules/knox/
 node_modules/stack/
 node_modules/ua-parser/
