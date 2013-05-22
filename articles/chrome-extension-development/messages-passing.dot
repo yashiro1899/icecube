@@ -1,0 +1,26 @@
+digraph finite_state_machine {
+    size="8.3,8"
+    rankdir = "LR"
+    node [fontname=Sans]
+
+    node [shape=Mrecord, fillcolor=beige, style=filled];
+    "background.html" [label="<a>[ background.html ]|<b>chrome.tabs.sendRequest|<c>chrome.extension.onRequest"];
+
+    node [shape=Mrecord, fillcolor=lightskyblue, style=filled];
+    "popup.html" [label="<a>[ popup.html ]|<b>chrome.extension.getBackgroundPage"]
+
+    node [shape=Mrecord, fillcolor=orange, style=filled];
+    "content script" [label="<a>[ content script ]|<b>chrome.extension.sendRequest|<c>chrome.extension.onRequest|<d>addEventListener"]
+
+    node [shape=Mrecord, fillcolor=red, style=filled];
+    "tab page" [label="<a>[ tab page ]|<b>DOM|<c>event.dispatchEvent"]
+
+
+    "background.html":b -> "content script":c
+    "content script":b -> "background.html":c
+
+    edge [style=dashed]
+    "popup.html":b -> "background.html":a
+    "content script":a -> "tab page":b
+    "tab page":c -> "content script":d
+}
