@@ -43,14 +43,14 @@ On Mac OS X:
     │   │   └── messages.json
     │   └── zh_CN
     │       └── messages.json
-    ├── css 
+    ├── css
     │   ├── popup.css
-    │   ... 
+    │   ...
     ├── images
-    │   ... 
+    │   ...
     ├── js
     │   ├── background.js
-    |   ... 
+    |   ...
     ├── manifest.json
     └── popup.html
 
@@ -91,6 +91,6 @@ On Mac OS X:
 
 #### references
 
-* [http://developer.chrome.com/extensions/](http://developer.chrome.com/extensions/)    
+* [http://developer.chrome.com/extensions/](http://developer.chrome.com/extensions/)
 * [http://open.chrome.360.cn/extension\_dev/overview.html](http://open.chrome.360.cn/extension_dev/overview.html)
 

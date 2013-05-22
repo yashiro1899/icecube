@@ -35,4 +35,4 @@
     "requirements": {...},
     "update_url": "http://path/to/updateInfo.xml",
     "web_accessible_resources": [...]
-}  
+}
