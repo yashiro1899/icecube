@@ -47,8 +47,12 @@ Every article is a markdown file with some meta-data at the top of the file.
 
 ### Theme List
 
+* 3024-day
+* 3024-night
 * ambiance-mobile
 * ambiance
+* base16-dark
+* base16-light
 * blackboard
 * cobalt
 * eclipse
@@ -61,6 +65,7 @@ Every article is a markdown file with some meta-data at the top of the file.
 * night
 * rubyblue
 * solarized
+* tomorrow-night-eighties
 * twilight
 * vibrant-ink
 * xq-dark
