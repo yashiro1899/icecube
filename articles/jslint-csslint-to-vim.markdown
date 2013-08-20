@@ -37,7 +37,23 @@ Theme: monokai
 
 这时打开你的 .css 文件后按 F9，就会出现像下面的图中的那样，提示你的代码在哪一行有问题，并在按下回车后，定位到第一次出现问题的那一行。
 
-![csslint](s3://ice.cube:csslint.png "csslint")
+    30 #content .del{
+    31     background: url(/resource/img/chrome/tools.png) no-repeat;
+    32 }
+    33 #doc header button{
+    34     float: right;
+    35     border: none;
+    :!lints resource/css/chrome.css  2>&1| tee /tmp/vuVeymj/0
+    resource/css/chrome.css(99): Warning - Values of 0 shouldn't have units specified.
+    resource/css/chrome.css(102): Warning - Values of 0 shouldn't have units specified.
+    resource/css/chrome.css(277): Warning - Values of 0 shouldn't have units specified.
+    resource/css/chrome.css(285): Warning - Element (input.loading) is overqualified, just use .loading without element name.
+    resource/css/chrome.css(393): Warning - Values of 0 shouldn't have units specified.
+    resource/css/chrome.css(548): Error - float can't be used with display: table-cell.
+    resource/css/chrome.css(549): Error - margin can't be used with display: table-cell.
+    resource/css/chrome.css: Warning - Too many floats (12), you're probably using them for layout. Consider using a grid system instead.
+
+    Press ENTER or type command to continue
 
 ### jslint & csslint
 
