@@ -1,0 +1,8 @@
+$ git diff --staged -- node_modules/wheat
+diff --git a/node_modules/wheat b/node_modules/wheat
+new file mode 160000
+index 0000000..59a0754
+--- /dev/null
++++ b/node_modules/wheat
+@@ -0,0 +1 @@
++Subproject commit 59a075481e48e8cd7592c0fdeedd5495d9224f5c

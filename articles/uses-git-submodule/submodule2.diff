@@ -1,0 +1,11 @@
+diff --git a/.gitmodules b/.gitmodules
+index 225991f..d47adee 100644
+--- a/.gitmodules
++++ b/.gitmodules
+@@ -1,6 +1,3 @@
+-[submodule "node_modules/wheat"]
+-	path = node_modules/wheat
+-	url = git@github.com:yashiro1899/wheat.git
+ [submodule "node_modules/codemirror"]
+ 	path = node_modules/codemirror
+ 	url = git://github.com/marijnh/CodeMirror.git
