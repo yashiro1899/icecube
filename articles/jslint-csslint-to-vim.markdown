@@ -22,20 +22,120 @@ Theme: monokai
     sudo npm install -g csslint
 
 可以 `csslint --list-rules` 查看所有的规则，用选项 `--errors` 定义触犯那些规则报 error，
-`--warnings` 定义触犯那些规则报 warning。传入多条规则以 `,` 格开。下面是我定义的规则：
+`--warnings` 定义触犯那些规则报 warning。传入多条规则以 `,` 格开。
 
-<jslint-csslint-to-vim/cssl.sh>
+    important
+      Be careful when using !important declaration
+
+    adjoining-classes
+      Don't use adjoining classes.
+
+    known-properties
+      Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property.
+
+    box-sizing
+      The box-sizing properties isn't supported in IE6 and IE7.
+
+    box-model
+      Don't use width or height when using padding or border.
+
+    overqualified-elements
+      Don't use classes or IDs with elements (a.foo or a#foo).
+
+    display-property-grouping
+      Certain properties shouldn't be used with certain display property values.
+
+    bulletproof-font-face
+      Use the bulletproof @font-face syntax to avoid 404's in old IE (http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax).
+
+    compatible-vendor-prefixes
+      Include all compatible vendor prefixes to reach a wider range of users.
+
+    regex-selectors
+      Selectors that look like regular expressions are slow and should be avoided.
+
+    errors
+      This rule looks for recoverable syntax errors.
+
+    duplicate-background-images
+      Every background-image should be unique. Use a common class for e.g. sprites.
+
+    duplicate-properties
+      Duplicate properties must appear one after the other.
+
+    empty-rules
+      Rules without any properties specified should be removed.
+
+    selector-max-approaching
+      Will warn when selector count is >= 3800 selectors.
+
+    gradients
+      When using a vendor-prefixed gradient, make sure to use them all.
+
+    fallback-colors
+      For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color.
+
+    font-sizes
+      Checks the number of font-size declarations.
+
+    font-faces
+      Too many different web fonts in the same stylesheet.
+
+    floats
+      This rule tests if the float property is used too many times
+
+    star-property-hack
+      Checks for the star property hack (targets IE6/7)
+
+    outline-none
+      Use of outline: none or outline: 0 should be limited to :focus rules.
+
+    import
+      Don't use @import, use <link> instead.
+
+    ids
+      Selectors should not contain IDs.
+
+    underscore-property-hack
+      Checks for the underscore property hack (targets IE6)
+
+    rules-count
+      Track how many rules there are.
+
+    qualified-headings
+      Headings should not be qualified (namespaced).
+
+    selector-max
+      Will error when selector count is > 4095.
+
+    shorthand
+      Use shorthand properties where possible.
+
+    text-indent
+      Checks for text indent less than -99px
+
+    unique-headings
+      Headings should be defined only once.
+
+    universal-selector
+      The universal selector (*) is known to be slow.
+
+    unqualified-attributes
+      Unqualified attribute selectors are known to be slow.
+
+    vendor-prefix
+      When using a vendor-prefixed property, make sure to include the standard one.
+
+    zero-units
+      You don't need to specify units when a value is 0.
+
+    csslint: No files specified.
 
 ### 集成到 vim
 
-之前利用 vim 的 makeprg 集成 Javascript Lint 到 vim 中。我们同样用它，把 CSS Lint 集成到 vim 中。在 .vimrc 中添加如下代码：
+之前利用 vim 的 makeprg 集成 Javascript Lint 到 vim 中。我们同样用它，把 CSS Lint 集成到 vim 中。
 
-    autocmd FileType css set makeprg=cssl\ %
-    autocmd FileType css set errorformat=%f(%l):\ %m
-    autocmd FileType css inoremap <F9> <C-o>:make<CR>
-    autocmd FileType css nmap <F9> :make<CR>
-
-这时打开你的 .css 文件后按 F9，就会出现像下面的图中的那样，提示你的代码在哪一行有问题，并在按下回车后，定位到第一次出现问题的那一行。
+这时打开你的 .css 文件后按 F9，就会出现类似下面的那样，提示你的代码在哪一行有问题，并在按下回车后，定位到第一次出现问题的那一行。
 
     30 #content .del{
     31     background: url(/resource/img/chrome/tools.png) no-repeat;
@@ -65,5 +165,11 @@ Theme: monokai
 
     autocmd FileType javascript,css set makeprg=lints\ %
     autocmd FileType javascript,css set errorformat=%f(%l):\ %m
-    autocmd FileType javascript,css inoremap <F9> <C-o>:make<CR>
+    autocmd FileType javascript,css imap <F9> <C-o>:make<CR>
     autocmd FileType javascript,css nmap <F9> :make<CR>
+
+### maximum-awesome
+
+最近在 [maximum-awesome](https://github.com/square/maximum-awesome "maximum-awesome") 基础上，改了一个自己版本的，代码地址：
+[https://github.com/yashiro1899/maximum-awesome](https://github.com/yashiro1899/maximum-awesome "mine")
+
