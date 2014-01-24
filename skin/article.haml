@@ -104,7 +104,7 @@
           %ul
             :each base, snippet in article.uniqueSnippets
               %li
-                %a{ href: snippet.filename}
+                %a{ href: "/articles/#{snippet.filename}"}
                   &= base
 
     %dl

@@ -50,4 +50,4 @@ Http.createServer(Stack(function(req, res, next) {
         res.writeHead(code, headers);
     };
     next();
-}, require('wheat')(__dirname + "/.."))).listen(process.env.NODE_DEV ? 8000 : 80);
+}, require('wheat')(__dirname + "/.."))).listen(8000);

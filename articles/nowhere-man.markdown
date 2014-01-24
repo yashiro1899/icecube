@@ -47,5 +47,5 @@ Tags: about, music
     Making all his nowhere plans for nobody!
 
 <script src="/audiojs/audio.min.js"></script>
-<script src="/nowhere-man/nowhere-man.js"></script>
+<script src="/articles/nowhere-man/nowhere-man.js"></script>
 
