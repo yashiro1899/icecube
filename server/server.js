@@ -35,8 +35,7 @@ Http.createServer(Stack(function(req, res, next) {
         }
 
         try {
-            console.log("%s - [%s] %s %s %s \"%s(%s)\"",
-                req.connection.remoteAddress,
+            console.log("[%s] %s %s %s \"%s(%s)\"",
                 headers.Date,
                 req.method,
                 req.url,
